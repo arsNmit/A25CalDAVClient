@@ -27,4 +27,8 @@ class VCardEntityResponse extends ETagEntityResponse
         if (!is_string($calendar_data)) return null;
         return $calendar_data;
     }
+
+    public function getContent() {
+        return 'test getContent';
+    }
 }

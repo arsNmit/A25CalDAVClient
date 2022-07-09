@@ -26,5 +26,5 @@
             "CalDAVClient\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "master"
 }
